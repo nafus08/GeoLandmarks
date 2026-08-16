@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mapFragment"
+        android:icon="@android:drawable/ic_dialog_map"
+        android:title="Map" />
+    <item
+        android:id="@+id/landmarkListFragment"
+        android:icon="@android:drawable/ic_menu_sort_by_size"
+        android:title="Landmarks" />
+    <item
+        android:id="@+id/activityFragment"
+        android:icon="@android:drawable/ic_menu_recent_history"
+        android:title="Activity" />
+    <item
+        android:id="@+id/addLandmarkFragment"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="Add" />
+</menu>

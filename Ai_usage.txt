@@ -1,0 +1,68 @@
+============================================================
+           AI USAGE DECLARATION
+============================================================
+
+Name: Muntafid Islam Nafsi
+Student ID: 24141057
+Assignment: CSE 489 Lab Exam - GeoLandmarks
+Date: August 15, 2026
+
+------------------------------------------------------------
+1. AI TOOLS USED (check all that apply)
+------------------------------------------------------------
+[ ] None
+[ ] ChatGPT
+[ ] GitHub Copilot
+[ ] Google Gemini
+[x] Claude
+[ ] Cursor
+[ ] Other: ________________
+
+------------------------------------------------------------
+2. PURPOSE OF AI USE (check all that apply)
+------------------------------------------------------------
+[x] Learning/understanding concepts
+[x] Debugging my code
+[ ] Generating code snippets
+[ ] Writing text content
+[x] Design/styling ideas
+[ ] Image generation
+[ ] Other: ________________
+
+------------------------------------------------------------
+3. DESCRIPTION OF AI USE
+------------------------------------------------------------
+Briefly describe what you used AI for and how:
+I took the assistance of Claude in:
+- Troubleshooting and fixing a MalformedJsonException caused by a data type mismatch (Int vs Double) in the landmark score field.
+- Implementing the repository-based offline caching strategy.
+-Helped me in designing the app. 
+-Mainly used it to debug the issues.
+
+------------------------------------------------------------
+4. AI-ASSISTED SECTIONS
+------------------------------------------------------------
+List specific files/sections where AI helped significantly:
+
+File: LandmarkRepository.kt Section: refreshLandmarks and addVisitLog
+File: VisitWorker.kt        Section: doWork polling loop
+File: LandmarkListFragment.kt Section: updateList filtering logic
+File: fragment_add_landmark.xml Section: UI layout design
+File: item_landmark.xml Section: Custom list item design
+File: bottom_nav_menu.xml Section: Navigation structure design
+
+------------------------------------------------------------
+5. DECLARATION
+------------------------------------------------------------
+I declare that:
+- This disclosure is complete and accurate
+- I understand all code in my submission
+- I can explain and modify my work if asked
+- I take full responsibility for my submission
+
+Signature: NAFSEE
+Date: August 15, 2026
+
+============================================================
+Save as: Ai_usage.txt
+============================================================
