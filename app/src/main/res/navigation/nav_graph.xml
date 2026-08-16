@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mapFragment">
+
+    <fragment
+        android:id="@+id/mapFragment"
+        android:name="com.example.geolandmarks.ui.map.MapFragment"
+        android:label="Map"
+        tools:layout="@layout/fragment_map" />
+    <fragment
+        android:id="@+id/landmarkListFragment"
+        android:name="com.example.geolandmarks.ui.landmarks.LandmarkListFragment"
+        android:label="Landmarks"
+        tools:layout="@layout/fragment_landmark_list" />
+    <fragment
+        android:id="@+id/activityFragment"
+        android:name="com.example.geolandmarks.ui.activity.ActivityFragment"
+        android:label="Activity"
+        tools:layout="@layout/fragment_activity" />
+    <fragment
+        android:id="@+id/addLandmarkFragment"
+        android:name="com.example.geolandmarks.ui.add.AddLandmarkFragment"
+        android:label="Add Landmark"
+        tools:layout="@layout/fragment_add_landmark" />
+</navigation>
